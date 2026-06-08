@@ -209,19 +209,3 @@ Después de cargar los datos, ejecutar la consulta de la Actividad 2. El resulta
 
 ---
 
-## Resumen
-
-| Concepto | Respuesta |
-|----------|-----------|
-| Nodos | `:Usuario`, `:Cuenta`, `:Telefono`, `:IP` |
-| Propiedades | `dni`, `nombre`, `numero_cuenta`, `numero`, `direccion`, `monto`, `fecha` |
-| Relaciones | `:POSEE`, `:REGISTRA`, `:CONECTA_DESDE`, `:TRANSFIERE_A` |
-| ¿Por qué IP/Teléfono como nodos? | Conectan usuarios distintos a través del mismo punto y detectan fraude sin JOINs costosos |
-
----
-
-## Referencias
-
-- [Neo4j Aura Console](https://console.neo4j.io/)
-- Apunte de Cátedra 16 — Base de Datos III
-- Guía Práctica: Dominando Neo4j Aura
